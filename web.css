@@ -1,0 +1,238 @@
+html{
+    scroll-behavior: smooth;
+}
+#topmendiv{
+    background-color: black;
+    width: 100%;
+    height:45px;
+    position: fixed;
+    margin: -10px;
+}
+#topmendiv a{
+    float:left;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding:10px 105px;
+    display: block;
+    font-size: 17px;
+    font-family: serif;
+    justify-content: center;
+}
+#intro{
+    display: flex;
+    width: 100%;
+}
+#right{
+    flex: 1;
+    text-align: center;
+    background-image: url('images/anime-original-girl-greenery-tree-hd-wallpaper-preview.jpg');
+    background-size: 100% 100%;
+    padding-top: 50px;
+}
+#left{
+    flex: 1;
+}
+#title{
+    font-family: cursive;
+    font-size: 40px;
+    color:gold;
+    background-color: rgba(172, 255, 47, 0.33);
+    ;
+}
+#subtitle{
+    margin-left: 200px;
+    width:50%;
+    height:40px;
+    background-color: #ff6699;
+    text-align: center;
+    color: cornsilk;
+    font-size: 25px;
+    border-radius: 5px;
+    padding-top: 10px;
+}
+#but{
+    color:white;
+    background-color: black;
+    font-family: cursive;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#books{
+    display: flex;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    text-align: center;
+    size: 120%;
+    margin:30px;
+}
+.cardsbsb{
+    flex: 1;
+    border:50px;
+    border-style: solid;
+    border-color: #666666;
+    height: 470px;
+}
+.price{
+    margin-top: 20px;
+    margin-right:10px;
+    padding:0;
+    font-size: 20px;
+    color: green;
+    float: right;
+}
+.cost{
+   float: right;
+    margin-top:15px;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.booktitle{
+    margin: 5px;
+    color:#d60c0c;
+    padding-top: 5px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(0, 255, 255, 0.207);
+
+}
+.description{
+    margin:5px;
+    padding: 0%;
+    text-align: center;
+}
+.cart{
+    background-color:rgb(56, 132, 170);
+    color: white;
+    width:80px;
+    margin-top: 20px;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+.cart:focus{
+    background-color:rgb(0, 248, 87);
+    color: white;
+    width:80px;
+    margin-top: 20px;
+    border-radius: 4px;
+    margin-left: 2px;
+}
+h1{
+    color: maroon;
+    font-size: 35px;
+}
+h5{
+    text-align: center;
+    font-size:20px;
+}
+.matter{
+    border:#666666 solid 4px;
+    border-bottom: 0;
+    width:50%;
+    margin-left:400px;
+    margin-top:20px
+}
+#searchbar{
+    display: flex;
+    width:310px;
+    align-items: center;
+    margin-left:200px;
+    background-color:rgba(0, 139, 139, 0.473);
+    height: 40px;
+    border-radius: 30px;
+}
+#searchbar input{
+    background: transparent;
+    outline: none;
+    border: 0;
+    margin-left:10px;
+    height: 50px;
+    width: 250px;
+}
+
+#searchbar button{
+    border: 0;
+    border-radius: 20px;
+    background-color: aqua;
+}
+#searchbar:hover{
+    border:black solid 2px;
+}
+.review{
+    border-top: 2px solid black;
+    margin-top: 0px;
+    width: 70%;
+    margin-left: 200px;
+    border-left: 2px solid black;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid gray;
+    margin-bottom:20px;
+}
+.review img{
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 15px;
+    float:left;
+}
+.review h1{
+    margin-left:0;
+    padding-left:0;
+    width:50%;
+    margin-top: 55px;
+    color:black;
+}
+.review p{
+    text-align: center;
+    font-family: cursive;
+}
+#ReviewForm{
+    margin-left: 450px;
+    width:400px;
+
+}
+#ReviewForm input{
+    align-items: center;
+    width:400px;
+    margin-top:20px;
+    height: 30px;
+    border-radius: 8px;
+    background-color:azure;
+}
+#ReviewForm textarea{
+    align-items: center;
+    width:400px;
+    margin-top:20px;
+    border-radius: 8px;
+    background-color:azure;
+    height: 100px;
+}
+#footer{
+    width: 70%;
+    margin-left:200px;
+    background-color: slategrey;
+    border-radius: 3px;
+}
+.links{
+    margin-top:0;
+    margin-bottom:50px;
+}
+.links h2{
+    color: aliceblue;
+    margin-left: 25px;
+    font-family:cursive;
+}
+.links a{
+    color:white;
+    text-decoration: none;
+    margin-right:25px;
+    font-size:15px;
+    margin-left:10px;
+    margin-bottom:100px;
+}
+.social{
+    margin-left:25px;
+}
